@@ -6,7 +6,7 @@ const dburl = 'mongodb+srv://kerutman:bXqvqNY6sL5fNdAz@bigway.dqi7m.mongodb.net/
 
 @Module({
   imports: [
-    MongooseModule.forRoot(dbUrl),
+    MongooseModule.forRoot(dburl),
     ProductModule,
   ],
 })
